@@ -1,0 +1,7 @@
+# Cloudflare Tunnel
+cloudflared/credentials.json
+cloudflared/*.json
+
+# Opcional
+cloudflared/config.yml
+

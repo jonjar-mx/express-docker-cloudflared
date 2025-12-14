@@ -1,8 +1,8 @@
-tunnel: e3f59152-cb8a-43b0-adda-02f75aa8ec11
+tunnel: <tu_UUID_de_tunnel>
 credentials-file: /etc/cloudflared/credentials.json
 
 ingress:
-  - hostname: api.jonmaxjara.space
+  - hostname: <tu_dominio_apuntado>
     service: http://api:3000
   - service: http_status:404
 
